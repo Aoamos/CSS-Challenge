@@ -1,0 +1,48 @@
+body {
+  background: hsl(0, 0%, 8%);
+  display: flex;
+  padding: 50px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background: hsl(0, 0%, 12%);
+  color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  text-align: center;
+  width: 350px;
+  height: 100vh;
+  margin: 0;
+}
+.container img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.name {
+  font-size: 25px;
+}
+.yellow {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+}
+.container p {
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+}
+.card {
+  background: hsl(0, 0%, 20%);
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card:hover {
+  background: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  transition: ease-in-out;
+}
